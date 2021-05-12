@@ -1,0 +1,10 @@
+#Corriente de circuito
+def corriente(v,r):
+    return (v/r)
+
+v=int(input("Voltaje "))
+r=int(input("Resistencia "))
+if(r>=0):
+    print('La corriente es ',corriente(v,r))
+else:
+    print('La resistencia no puede ser negativa')
